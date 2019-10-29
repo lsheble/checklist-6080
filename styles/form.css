@@ -1,0 +1,104 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	text-align: left;
+    margin-left: 10px;
+	margin-top: 20px;/*	*/
+    padding-left: 15px;
+    background-color: rgba(255, 243, 196, 0.3);
+}
+
+ul {
+    list-style-type: none;
+     padding-left: 1.25rem;
+     padding-bottom:0.7em;
+      list-style-position: inside;
+ }
+
+ ul li{
+    list-style-type: none;
+     padding-left: 1.25rem;
+    padding-bottom:0.65em;
+     list-style-position: inside;
+}
+
+.two-col {
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;
+}
+
+.three-col {
+-moz-column-count:3; /* Firefox */
+-webkit-column-count:3; /* Safari and Chrome */
+column-count:3;
+}
+
+.no_wrap {white-space: nowrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+margin-left: 1.25em;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+   width: 75%;
+/*Form outline */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+/*
+form section {
+    border-top: 2px solid #CCC; 
+    border-bottom: 2px solid #CCC; 
+    
+}*/
+form section + section {
+  margin-top: 1em;
+     border-top: 2px solid #CCC; 
+}
+
+label {
+/*   Uniform size & alignment */
+  display: inline-flex;
+  /*width: 90px;*/
+  text-align: right;
+}
+
+
+input[type=text], input[type=url] {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input[type=checkbox] {
+      width: 20px;
+}
+input:focus, 
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #900;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
