@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Open+Sans:400,700');
+
+body {
+	font-family: "Open Sans", sans-serif;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 20px;
+    background-color: rgba(255, 243, 196, 0.3);
+}
+
+/*
+The style is used to style the dlectricity bunny image.
+the margins to the left and top of the image are specified.
+*/
+
+.ireg {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+/*
+The style is used style the file folder images.
+the margin: auto; line centers the images.
+*/
+.iblock {
+    display: block;
+    margin: auto;
+}
+
+
+/*
+The style is applied to select p tags, those with class="annotate" in the p tag.
+*/
+p.annotate {
+    text-align: right;
+    color: white;
+    background-color: black;
+    border: 5px solid lightskyblue;
+    padding: 1em 3em 1em;
+}
+
+nav {
+    padding-top: 2em;
+}
+
+/*start mdn variant*/
+
+.nav-box {
+    background-color: black;
+    color: white;
+    padding-left:1em;
+}
+a.nav {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+    
+}
+a.nav:link { color: blue;}
+a.nav:visited {  color: purple;}
+a.nav:focus, a:hover {
+  border-bottom: 1px solid;
+}
+a.nav:active {  color: red;}
+a.nav[href*="."] {
+  background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+ul.nav {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+ul.nav li.nav {
+  padding-left: 2rem;
+}
+/* end mdn variant */
+
+/*footer on website-structure */
+p.footer {
+  text-align: right;
+}
+
+/*
+The style scales an image down to 50% of the browser window's width
+The image is resized if & as the viewer's browser window is resized.
+*/
+.image-scale-to-fifty { 
+    max-width: 50%;
+    height: auto;
+}
+
+
+/* 
+These styles are used for select behaviors related to a links
+that have class="light-background" associated with them. 
+*/
+a.light-background:link{color: darkblue;}
+a.light-background:visited{color: darkorchid;}
+a.light-background:hover{background-color: azure;}
+
+
+/* 
+These styles are used for select behaviors related to a links
+that have class="dark" associated with them. 
+*/
+a.dark:link{color: aliceblue;}
+a.dark:visited{color: lavender;}
+a.dark:hover{background-color:chocolate;}
+
+
+/* 
+This styles the code block. 
+border-radius is used to round the corners
+*/
+
+pre code {
+  font-family: 'Anonymous Pro', monospace;
+  background-color:#eee;
+  border: 1px solid darkgray;
+  display: block;
+  padding: 20px;
+  border-radius: 25px;
+  overflow: auto;
+  width: 500px;
+}
+
+/* This style is not used at present */
+.purple_sky {
+background-image:
+  url('../images/purple_sky.png');
+  opacity: 0.3;
+    }
+

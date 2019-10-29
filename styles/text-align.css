@@ -1,0 +1,63 @@
+
+/* by default, text is aligned at left
+we can add margins to any side*/
+
+h1 {text-align: center;
+    color:darkslategray;
+}
+
+
+/*this css item affects all h3 header tags
+note that for measurements, there is no space between the number and the unit, for example the left margin is 120px (120 pixels)*/
+h3 {
+    margin-left: 120px;
+    padding: 30px;
+    color: cadetblue;
+    border: 1px solid cadetblue;
+}
+
+/* this sets the color for all text in p elements to dimgray */
+
+p {
+   color: dimgray;
+   border: 1px solid dimgray;
+   padding: 10px;
+}
+
+/* in this example, paragraph items assigned class="left-text" have a 20 pixel margin left and top, and are the color brown. This color selection will override the dimgray selection that was assigned to all paragraph elements */
+p.left-text {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: brown;
+    border: 2px dashed brown;
+}
+
+
+
+/*we can center text... */
+
+p.center-text {
+  text-align: center;
+}
+
+/*and align on the right side */
+
+p.right-text {
+  text-align: right;
+}
+
+
+/* This style has not been used in the text-align.html page. It's okay to have an unused style such as this in the style sheet, but perhaps not ideal since it is usused information that someone working on this page may have to sift through in the future, and since the style is here, they might assume it is used somewhere, and could spend time looking for it. 
+*/
+
+p.bold-right-return {
+  text-align: right;
+  font-weight: 700;
+}
+
+
+
+/* 
+I did not add an example for justified text.
+
+if you want, you can justify text... this adds spacing to fill out a box or container on your site */ 
