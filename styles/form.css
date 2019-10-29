@@ -60,8 +60,8 @@ margin-left: 1.25em;
     text-align: center;
 }
 
-p.center {    
-    text-align: center;
+.center {    
+    align: center;
     padding: 1.3em;
 }
 
