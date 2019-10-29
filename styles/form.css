@@ -60,6 +60,11 @@ margin-left: 1.25em;
     text-align: center;
 }
 
+p.center {    
+    text-align: center;
+    padding: 1.3em;
+}
+
 .dikkat {
     background-color: #ffffd4;
     font-size: 1.1em;
