@@ -5,12 +5,18 @@
         <meta name="author" content="L Sheble">
         <meta name="description" content="Checklist developed for INF 6080 website development homework">
 		<title>Website checklist</title>
-        <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
         <link rel="stylesheet" href="styles/form.css">
+        <script>
+            var form = document.querySelector('.pageclip-form')
+            Pageclip.form(form, {
+    onSubmit: function (event) { },
+    onResponse: function (error, response) { },
+    successTemplate: '<span>Thank you!</span>'
+})
+</script>
 	</head>
 	 <body>
-       <form action="https://send.pageclip.co/28JoA2Mp5CM26pb8yrxE1sDjLgqpvkc0/checklist" class="pageclip-form" method="post">
-  <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+  <form action="https://send.pageclip.co/28JoA2Mp5CM26pb8yrxE1sDjLgqpvkc0/checklist" class="pageclip-form" method="post">
 
 <h1>Website checklist</h1>
            
@@ -18,7 +24,8 @@
 
     <h2>General website structure and content</h2>
     <div>
-    <ul><li>I know the URL for my website. <label for="my-url">My URL</label> is: <input type="url" id="my-url" name="my-url" value="http://141.217.97.220/" /></li>
+    <ul><li>I know the URL for my website. <label for="my-url">My URL</label> is: <input type="url" id="my-url" name="my-url" value="http://141.217.97.220/" /><br>
+        <em>Note: you must include your access ID in the URL above for me to identify your submission.</em></li>
 
     <li>My site includes at least three HTML pages:
     <ul>
@@ -221,13 +228,16 @@
 
         </ul></div>
 
-
-           
-           <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+<div>
+<button type="submit">
+    <span>Send</span>
+  </button>   
+    </div>
+           <!-- This button will have a loading spinner. Keep the inner span for best results.
   <button class="button pageclip-form__submit" type="submit">
     <span>Submit</span>
-  </button>
+  </button>-->
 </form>  
-        <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script> 
+        <script src="https://s.pageclip.co/v1/pageclip.js"></script> 
     </body>
 </html>
