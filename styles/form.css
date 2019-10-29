@@ -44,6 +44,27 @@ h3 {
 margin-left: 1.25em;
 }
 
+
+.big-tomato-thanks {
+    color: tomato;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+}
+
+.strongly {
+    font-weight: 600;
+    font-size: 1.3
+    text-align: center;
+}
+
+.dikkat {
+    background-color: #ffd7b5;
+    font-size: 1.1em;
+    padding-top: 1.1em;
+}
+
 form {
   /* Center the form on the page */
   margin: 0 auto;
