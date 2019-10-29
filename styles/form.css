@@ -55,14 +55,17 @@ margin-left: 1.25em;
 
 .strongly {
     font-weight: 600;
-    font-size: 1.3
+    font-size: 1.2em;
     text-align: center;
 }
 
 .dikkat {
-    background-color: #ffd7b5;
+    background-color: #ffffd4;
     font-size: 1.1em;
-    padding-top: 1.1em;
+}
+
+.dikkat-sym {
+    color: tomato;
 }
 
 form {
