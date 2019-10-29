@@ -11,7 +11,7 @@
             Pageclip.form(form, {
     onSubmit: function (event) { },
     onResponse: function (error, response) { },
-    successTemplate: '<span>Thank you!</span>'
+    successTemplate: '<h2><span class="big-tomato-thanks">Thank you!</span><h2><p class="strongly">Please save or print this page to save a copy for your records.</p>'
 })
 </script>
 	</head>
@@ -25,7 +25,7 @@
     <h2>General website structure and content</h2>
     <div>
     <ul><li>I know the URL for my website. <label for="my-url">My URL</label> is: <input type="url" id="my-url" name="my-url" value="http://141.217.97.220/" /><br>
-        <em>Note: you must include your access ID in the URL above for me to identify your submission.</em></li>
+        <span class="dikkat">Note: you must include your access ID in the URL above for me to identify your submission.</span></li>
 
     <li>My site includes at least three HTML pages:
     <ul>
@@ -230,7 +230,7 @@
 
 <div>
 <button type="submit">
-    <span>Send</span>
+    <span>Submit</span>
   </button>   
     </div>
            <!-- This button will have a loading spinner. Keep the inner span for best results.
